@@ -2,7 +2,9 @@
   "name": "pantryiq-live",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "scripts": {"scripts": {
+  "build": "next build"
+}
     "dev": "next dev",
     "build": "npx @opennextjs/cloudflare build",
     "start": "next start",
