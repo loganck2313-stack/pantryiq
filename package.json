@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "npx @opennextjs/cloudflare build",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint",
@@ -11,14 +11,6 @@
     "deploy": "npx wrangler deploy"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.20.15",
     "next": "16.4.3"
-  },
-  "devDependencies": {
-    "@tailwindcss/turbopack": "^4.3.3",
-    "@types/node": "^26.6.6",
-    "@types/react": "^19.3.0",
-    "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2"
   }
 }
